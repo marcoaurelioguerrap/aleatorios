@@ -1,5 +1,8 @@
 # Diagrama de Hertzsprung-Russell
 
+![alt_text](https://github.com/marcoaurelioguerrap/aleatorios/blob/main/diagrama_HR/imagens/freq_estrelas.png)
+![alt_text](https://github.com/marcoaurelioguerrap/aleatorios/blob/main/diagrama_HR/imagens/cor_estrelas.png)
+
 Código para fazer o diagrama de Luminosidade vs temperatura de uma estrela os dados foram retirados do site do [banco de dados de estrelas Gaia2](https://gea.esac.esa.int/archive/) , não sou astronomo fiz esse grafico por que acho ele bonito. Usei como guia o artigo [***Gaia*** **Data Release 2** - Observational Hertzsprung-Russell diagrams](https://www.aanda.org/articles/aa/full_html/2018/08/aa32843-18/aa32843-18.html#S3) nele tem o query para pegar os dados.
 
 3 milhões de estrelas ( e 212728 de estrelas se utilizar parallax > 10, o gráfico de cor fica mais bonito assim )
