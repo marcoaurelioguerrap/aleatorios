@@ -7,7 +7,7 @@ Código para fazer o diagrama de Luminosidade vs temperatura de uma estrela os d
 
 3 milhões de estrelas ( e 212728 de estrelas se utilizar parallax > 10, o gráfico de cor fica mais bonito assim )
 
->SELECT TOP 5 phot_g_mean_mag+5*log10(parallax)-10 AS mg, bp_rp FROM gaiadr2.gaia_source
+>SELECT phot_g_mean_mag+5*log10(parallax)-10 AS mg, bp_rp FROM gaiadr2.gaia_source
 WHERE parallax_over_error > 10
 AND phot_g_mean_flux_over_error>50
 AND phot_rp_mean_flux_over_error>20
